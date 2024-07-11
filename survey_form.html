@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" a content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+  <body>
+    <head>
+  <title>summet holidays survey</title>
+     <h1 id="title">Summer Holidays Survey</h1>
+     <p id="description"><em>Tell us about your summer holidays in <b>Spain</b></em></p>
+    </head>
+    <main>
+  <form id="survey-form" action="URL" method="post">
+  <fieldset>
+    <label for="name" id="name-label">What is your name?<input id="name" type="text" placeholder="Enter your name here" required/></label>
+    <label for="email" id="email-label">What is your email?<input id="email" type="email"  placeholder="Enter your email here" required/></label>
+    <label for="number" id="number-label">How many days did you spend in Spain?<input id="number" type="number" min="1" max="100"  placeholder="Enter the number of days" required/> 
+  </fieldset>
+  <fieldset>
+    <label>Who did you travel with?
+    <select id="dropdown">
+      <option value="">(choose one)</option>
+      <option value="1">Family</option>
+      <option value="2">Friends</option>
+      <option value="3">Family and friends</option>
+    </select>
+    </label>
+  </fieldset>
+  <fieldset>
+  <legend>Did you enjoy your accommodation?</legend> 
+    <label for="yes"> 
+      <input type="radio" value="yes" name="accommodation" class="inline" checked/>Yes</label>
+     <label for="no">
+       <input type="radio" value="no" name="accommodation" class="inline"/>No</label> 
+     <label for="not-entirely">
+       <input type="radio"a value="not-entirely" name="accommodation" class="inline"/>Not entirely</label>
+  </fieldset>
+  <fieldset>
+   <p class="enjoy2">What did you enjoy most?<span class="enjoy">(You can choose as many options as you like)</span></p>
+   <label for="weather"> 
+     <input value="weather" type="checkbox" name="weather" class="inline"/>Weather</label>
+   <label for="people"> 
+     <input value="people" type="checkbox" name="people" class="inline"/>People</label>
+   <label for="sights"> 
+     <input value="sights" type="checkbox" name="sights" class="inline"/>Sights</label>
+   <label for="beaches"> 
+     <input value="beaches" type="checkbox" name="beaches" class="inline"/>Beaches</label>
+   <label for="food"> 
+     <input value="food" type="checkbox" name="food" class="inline"/>Food</label>
+   <label for="leisure-activities"> 
+     <input value="leisure-activities" type="checkbox" name="leisure-activities" class="inline"/>Leisure activities</label>
+   <label for="shopping"> 
+     <input value="shopping" type="checkbox" name="shopping" class="inline"/>Shopping</label>
+  </fieldset>
+  <fieldset>
+    <label>Tell us about your experience and what might be improved: </label> <textarea id="Write a few sentences here" rows="3" cols="50" required>Write a few sentences here.</textarea>
+  </fieldset>
+  <fieldset>
+<input id="submit" type="submit"/> 
+</fieldset>
+</form>
+  </body>
+  </main>
+</html>
