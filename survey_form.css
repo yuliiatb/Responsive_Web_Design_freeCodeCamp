@@ -1,0 +1,90 @@
+body{
+    background-image: url(https://images.pexels.com/photos/2242207/pexels-photo-2242207.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+      }
+  form{
+    background-color: rgb(255, 255, 255, 0.7);
+    width: 80vw;
+    margin: 0 auto;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 22px;
+  }
+  h1{
+    color: #E6F4FD;
+    font-family: Verdana; 
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+  }
+  p{
+    color: #E6F4FD;
+    font-family: Palatino; 
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 30px; 
+  }
+  label{
+    display: block;
+    font-family: Verdana; 
+    margin: 0.5rem 0 0 0; 
+  }
+  legend{
+    display: inline;
+    font-family: Verdana;
+  }
+  select{
+    font-size: 16px;
+  }
+  .enjoy{
+    font-style: italic;
+    font-size: 14px;
+  }
+  input{
+    width: 100%;
+    font-family: Arial;
+  }
+  input::placeholder{
+    color:gray;
+    font-style: italic;
+    font-family: Arial;
+    font-size: 14px;
+  }
+  .inline{
+    width: unset; 
+    margin: 0 0.5em 0.5em;
+    vertical-align: middle;
+  }
+  fieldset{
+    border: none;
+  }
+  textarea{
+    color: gray;
+    font-family: Arial;
+    font-style: italic;
+    width: 100%;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  input[type="submit"]{
+    display: block;
+    width: 80%;
+    height: 2em;
+    font-size: 16px;
+    font-family: Verdana;
+    background-color: hsl(199, 75%, 53%);
+    border-color: #78C3E6;
+    box-shadow: 0 0 20px 0 #2FA5DC;
+    margin: 0 auto;
+  }
+  p.enjoy2 {
+    text-align:left!important;
+    color:black;
+    display: inline;
+    font-family: Verdana;
+    font-size: 16px;
+  }
+  
